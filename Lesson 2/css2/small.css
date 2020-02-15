@@ -1,0 +1,72 @@
+body {
+    font-family: 'Gayathri', sans-serif;
+    text-align: left;
+}
+article{
+    max-width: 50em;
+    margin: auto;
+}
+header {
+    background-color: #3C4F76;
+    padding: 0.3em 1em;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+section {
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 1em;
+    background-color: #DDDBF1;
+}
+
+h3 {
+    padding-left: 1em;
+    margin-top: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #383F51;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    padding: 1em;
+}
+
+img {
+    display: block;
+    width: 98%;
+    margin: auto;
+}
+
+footer {
+    padding:1em;
+    background-color: #3C4F76;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: purple;
+}
+
+footer div{
+    margin: 1em;
+}
