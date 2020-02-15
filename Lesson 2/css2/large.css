@@ -27,7 +27,7 @@
     }
     
     div.wrapper {
-        width: 95%;
+        width: 9%;
         margin: 0 auto;
     }
     
@@ -42,7 +42,7 @@
         color: white;
         border-radius: 10px;
         text-align: center;
-        width: 85%;
+       
     }
     
     header > h1 {
