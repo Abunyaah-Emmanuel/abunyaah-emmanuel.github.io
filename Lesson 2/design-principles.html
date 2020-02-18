@@ -11,13 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="/Lesson 2/css2/normalize.css">  
-        <link rel="stylesheet" href="/Lesson 2/css2/small.css.css">
-        <link rel="stylesheet" href="/Lesson 2/css2/medium.css.css">      
+        <link rel="stylesheet" href="/Lesson 2/css2/small.css">
+        <link rel="stylesheet" href="/Lesson 2/css2/medium.css">      
         <link rel="stylesheet" href="/Lesson 2/css2/large.css">
 
-    
-    
     </head>
+    
     <body onload="update()">
         <article>
         <div class="wrapper">
@@ -27,23 +26,28 @@
         </header>
 
             <main>
+            
                <h2>Lesson 2: Design Principles</h2>
                <hr>
                
-            <div class="container">
-                    <section>
+               <section>
+               <div class="container">
                     <h3>
                         White Space With a Clean Design
                     </h3>
                     <p>
                       Apple <br>
-                    <a href="https://www.apple.com/" target="_blank">https://www.apple.com</section>a><p></p>
-                    <img src="images2/apple.PNG" alt="apple pix">
+                    <a href="https://www.apple.com/" target="_blank">https://www.apple.com</a><p></p>
+                    <picture>
+                    <img class="apple"
+                    src="images2/apple.PNG" alt="apple pix">
+                    </picture>
                     <p>
                       The Apple Company uses white space and clean design to improve its readability, creates margins between paragraphs, balance between element of different visual weight. It also creates relationships and visual hierarchy between element.
                     </p>
             </div>
-                    </section>
+        </section>
+                    
 
                     <section>
                         <div>
@@ -52,13 +56,17 @@
                         </h3>
                         <p>
                           Oinvest <br>
-                        <a href="https://oinvest.com" target="_blank">https://oinvest.com</section>a><p></p>
-                        <img src="images2/oinvest.PNG" alt="oinvest pix">
+                        <a href="https://oinvest.com" target="_blank">https://oinvest.com</a><p></p>
+                        <picture>
+                        <img class="oinvest"
+                        src="images2/oinvest.PNG" alt="oinvest pix">
+                        </picture>
                         <p>
                             The Mashable aligns its contents to the left. Both the texts and the input controls (input and button) which are left aligned creates a sense of unity by providing structure and connecting elements in a subtle, yet powerful way. it also improves the readability and thus overall user experience on the site.
                         </p>
                     </div>
                     </section>
+                    
 
                     <section>
                         <div>
@@ -67,8 +75,11 @@
                         </h3>
                         <p>
                          The Washington Post <br>
-                        <a href="www.washingtonpost.com" target="_blank">www.washingtonpost.com/</section>a><p></p>
-                        <img src="images2/washingtonpost.PNG" alt="washington post pix">
+                        <a href="www.washingtonpost.com" target="_blank">www.washingtonpost.com/</a><p></p>
+                        <picture>
+                        <img class="wpost"
+                        src="images2/washingtonpost.PNG" alt="washington post pix">
+                        </picture>
                         <p>
                             The Photography Mad placed the image in the banner on the last column of the photographic grid. This enhances balance and composition of the website. The beautiful, big images contributes to good web design, and makes the website more interesting and appealing.
                         </p>
@@ -82,13 +93,14 @@
                 <p>&copy; <span id="currentYear"></span> | Emmanuel Abunyaah | Accra, Ghana | <a href="https://www.byui.edu/online" target="_blank" rel="noopener">BYUI Online Learning</a> </p>
                 <p>LastUpdated: <span id="lastUpdate"></span></p>
             </footer>
-        </div>
+        
         <script> function update() {
             var today = new Date();
             document.getElementById("currentYear").innerHTML = today.getFullYear();
             document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
           }
           </script>
+    </div>
     </article>
     </body>
     </html>

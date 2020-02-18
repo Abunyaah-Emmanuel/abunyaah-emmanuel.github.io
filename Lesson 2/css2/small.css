@@ -1,72 +1,28 @@
-body {
-    font-family: 'Gayathri', sans-serif;
-    text-align: left;
+main {
+	max-width: 767px;
+	margin: 0 auto;
 }
-article{
-    max-width: 50em;
-    margin: auto;
-}
-header {
-    background-color: #3C4F76;
-    padding: 0.3em 1em;
-}
-
-h1 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-section {
-    border-radius: 15px;
-    border: 1px solid black;
-    margin: 1em;
-    background-color: #DDDBF1;
-}
-
 h3 {
-    padding-left: 1em;
-    margin-top: 0px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background-color: #383F51;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+	color: #536878;
 }
 
-p {
-    padding: 1em;
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
 }
 
-img {
-    display: block;
-    width: 98%;
-    margin: auto;
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+}
+section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
 }
 
-footer {
-    padding:1em;
-    background-color: #3C4F76;
-    color: white;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: purple;
-}
-
-footer div{
-    margin: 1em;
+.apple, .oinvest, .wpost {
+	box-shadow: 0 0 30px #333;
 }
