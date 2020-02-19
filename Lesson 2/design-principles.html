@@ -18,7 +18,7 @@
 
     </head>
     
-    <body onload="update()">
+    <body>
         <article>
         <div class="wrapper">
         <header>
@@ -38,7 +38,7 @@
                     </h3>
                     <p>
                       Apple <br>
-                    <a href="https://www.apple.com/" target="_blank">https://www.apple.com</a><p></p>
+                    <a href="https://www.apple.com" target="_blank">https://www.apple.com</a><p></p>
                     <picture>
                     <img class="apple"
                     src="images2/apple.PNG" alt="apple pix">
@@ -95,12 +95,7 @@
                 <p>LastUpdated: <span id="lastUpdate"></span></p>
             </footer>
         
-        <script> function update() {
-            var today = new Date();
-            document.getElementById("currentYear").innerHTML = today.getFullYear();
-            document.getElementById("lastMod").innerHTML = "last modified: " + document.lastModified;
-          }
-          </script>
+            <script src="js2/script.js"></script>
     </div>
     </article>
     </body>

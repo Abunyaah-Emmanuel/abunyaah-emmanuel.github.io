@@ -15,7 +15,7 @@ h2 {
 }
 
 div.wrapper {
-    width: 95%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -78,4 +78,5 @@ footer > p > a {
     main {
 		grid-template-columns: 1fr 1fr 1fr;
     }
+
  }

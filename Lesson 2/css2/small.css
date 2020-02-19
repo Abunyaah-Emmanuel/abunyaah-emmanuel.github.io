@@ -24,5 +24,6 @@ section:nth-child(2) {
 }
 
 .apple, .oinvest, .wpost {
-	box-shadow: 0 0 30px #333;
+    box-shadow: 0 0 30px #333;
+    
 }
