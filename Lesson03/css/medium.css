@@ -6,13 +6,45 @@
     h2 {
      font-size: 1.5em;
     }
- 
-    header img {
-     float: right;
+
+    .grid-container, #main-container {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
+    #target-container, #color-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #main-container aside {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .target-article:nth-child(1) {
+        grid-column: span 2;
+    }
+
+    .target-article:nth-child(4) {
+        grid-column: span 2;
+    }
+
+    .nav-article:nth-of-type(1) {
+        grid-column: span 2;
+    }
+
+    .nav-article:nth-of-type(2) {
+        grid-column: span 2;
     }
  }
  
