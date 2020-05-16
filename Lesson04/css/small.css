@@ -1,50 +1,14 @@
-@media only screen and (min-width: 32.5em) {
-    header img {
-        width: 70px;
-        height: auto;
-	}
 
-    h1 {
-     font-size: 2.5em;
-    }
- 
-    h2 {
-     font-size: 1.5em;
-    }
+@import url('https://fonts.googleapis.com/css?family=Anton|Barlow|Fjalla+One|Lobster|Ubuntu|Ubuntu+Condensed&display=swap');
 
-    .grid-container, #main-container {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    width: 100vw;
+}
 
-    #target-container, #color-container {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    #main-container aside {
-        display: block;
-    }
-
-    nav ul li a {
-        font-size: 1rem;
-    }
-
-    .target-article:nth-child(1) {
-        grid-column: span 2;
-    }
-
-    .target-article:nth-child(4) {
-        grid-column: span 2;
-    }
-
-    .nav-article:nth-of-type(1) {
-        grid-column: span 2;
-    }
-
-    .nav-article:nth-of-type(2) {
-        grid-column: span 2;
-    }
- }
- #content-container {
+#content-container {
     width: 85%;
     margin: 0 auto;
     background-color: bisque;
@@ -59,9 +23,8 @@
     background-color: #1f2041;
     color: #ffffff;
     border-radius: 5px;    
-   
+    
 }
-
 
 .main-nav li:first-child {
     display: block;
@@ -95,6 +58,3 @@
 .responsive li {
 	display: block;
 }
-
-
- 

@@ -1,3 +1,9 @@
+//toggle menu
+function toggleMenu() { 
+    document.getElementsByClassName("main-nav")[0].classList.toggle("responsive");  
+}
+
+// footer
 document.getElementById('currentYear').innerHTML = new Date().getFullYear();
 
 document.getElementById("lastUpdate").innerHTML = document.lastModified;

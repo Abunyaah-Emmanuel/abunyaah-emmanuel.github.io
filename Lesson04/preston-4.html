@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 
 <body>
@@ -16,9 +17,11 @@
         <h1>Meteorology Research Institute of Ghana</h1>
     </header>
     <nav>
-        <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Preston</a></li>
+        <ul class="main-nav">
+            <li><a href="#" onclick="toggleMenu()"><span class="exit-button">&#215;</span>
+            <span class="hamburger">&#9776; Menu</span></a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-4.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
