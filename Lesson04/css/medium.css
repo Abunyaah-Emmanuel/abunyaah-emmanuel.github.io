@@ -2,7 +2,12 @@
     header img {
         width: 70px;
         height: auto;
-	}
+    }
+    
+    .motto {
+        font-size: 1.1rem;
+        font-style: italic;
+    }
 
     h1 {
      font-size: 2.5em;

@@ -6,7 +6,9 @@
 	.motto {
 		letter-spacing: 2.5pt;
 		font-size: 1.2rem;
-		margin-left: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-style: italic;
     }
 
     h3 {
