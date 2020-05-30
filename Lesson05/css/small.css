@@ -123,3 +123,19 @@ h3{
     display: none;
 }
 
+#friday-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: bisque;
+    display: none;
+}
+
+#friday-banner p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #1f2041;
+}
+
