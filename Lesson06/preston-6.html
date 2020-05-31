@@ -14,13 +14,13 @@
 
 <body>
     <header>
-    <section id="main-header">     
-        <div id="friday-banner">
-            <p>
-                Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion
-            </p>  
-            </div> 
-    </section>
+        <section id="main-header">
+            <div id="friday-banner">
+                <p>
+                    Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion
+                </p>
+            </div>
+        </section>
         <img src="images/cloud 3.jpeg" alt="logo">
         <h1>Meteorology Research Institute of Ghana</h1>
     </header>
@@ -47,7 +47,7 @@
                         <img class="hero-image" src="images/hero-image-400.png" width="100" height="300" alt="blue sky">
                     </picture>
                 </div>
-                
+
                 <section class="weather-summary">
                     <h3>Weather Summary</h3>
                     <hr>
@@ -56,20 +56,20 @@
                         <span class="head-value">Sunny</span>
 
                         <span class="head-content">High:</span>
-                        <span class="head-value">76 &#8457;</span>
+                        <span class="head-value"><span id="temp">48</span>&#8457;</span>
 
                         <span class="head-content">Wind Chill:</span>
-                        <span class="head-value"> 40 &#8457;</span>
+                        <span class="head-value"><span id="wind-chill"></span></span>
 
                         <span class="head-content">Humidity:</span>
-                        <span class="head-value">69 %</span>
+                        <span class="head-value">69%</span>
 
                         <span class="head-content">Wind Speed:</span>
-                        <span class="head-value">5 mph</span>-
+                        <span class="head-value"><span id="wind-speed">5</span>mph</span>
                     </div>
 
                 </section>
-            
+
             </div>
 
             <div>
@@ -105,14 +105,15 @@
             <section>
                 <h2 class="float">Weather Situation in Idaho</h2>
                 <div id="article-container">
-                    <div class="article panel-wrapper">                                                
+                    <div class="article panel-wrapper">
                         <picture class="new-img">
                             <img class="img2" src="images/weather view.jpg" alt="cloudy mountainous view">
                         </picture>
                         <div class="panel">
                             <h4 class="float">By Emmanuel Abunyaah</h4>
                             <p class="news-text">
-                                <strong>MISSOULA</strong> — A few scattered rain showers will be possible Tuesday morning. By the
+                                <strong>MISSOULA</strong> — A few scattered rain showers will be possible Tuesday
+                                morning. By the
                                 afternoon, isolated showers will remain in the forecast specifically for the higher
                                 terrain. Expect mostly to partly cloudy skies with highs in the 60's to low 70's. Expect
                                 breezy winds to develop across west-central and northwest Montana Tuesday afternoon and
@@ -191,7 +192,11 @@
                 href="https://www.byui.edu/online" target="_blank" rel="noopener">BYUI Online Learning</a> </p>
         <p>LastUpdated: <span id="lastUpdate"></span></p>
     </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/script.js"></script>
+    
 </body>
-<script src="js/script.js"></script>
-
 </html>
