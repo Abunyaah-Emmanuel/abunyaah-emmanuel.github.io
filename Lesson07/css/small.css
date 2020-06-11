@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Barlow|Fjalla+One|Lobster|Ubuntu|Ubuntu+Condensed&display=swap');
+
+
+header, main, footer, nav {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0.75em;
+}
+
+header, footer {
+    display: flex;
+    flex-flow: column;
+    background-color: darkolivegreen;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+header > h1 {
+    font-size: 2.5rem;
+    line-height: 2.3rem;
+}
+
+header img {
+    box-shadow: 0 0 10px #1f2041;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    position: relative;
+}
+
+nav {
+    border-radius: 10px;
+    background-color: #556b2f;
+    text-align: center;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    padding: 5px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.active {
+    color: #ffa500;
+}
+
+nav ul li:hover, .active:hover {
+    background-color: #1f2041;
+    color: #fff;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav li:first-child {
+    font-size: 1.6rem;
+    display: block;
+}
+
+.main-nav li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+footer {
+    line-height: 1.2rem;
+    font-size: 0.85rem;
+}
+
+footer p + p {
+    color: orange;
+}
+
+footer > p > a {
+    color: white;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    width: 100;
+    box-sizing: border-box;
+}
+
+
+.hero-image{
+    margin: 10px auto;
+    width: 100%;
+    height: 300px;
+    border: 1px solid;
+    
+}
+
+.herodiv {
+    position: relative;
+    margin: 10px auto;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.head-content {
+    text-align: right;
+}
+
+.head-value {
+    text-align: left;
+    color: #1f2041;
+    font-size: 1.1rem;
+}
+
+hr{
+    border: 1px solid #1f2041; 
+}
+
+h3{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.content-box {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #1f2041;
+    color: #ffffff;
+    border-radius: 5px;   
+}
+
+nav li a {
+    font-size: 1rem;
+}
+
+.table-grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px;
+    border-right: 1px;
+    font-size: 0.85rem;
+    color: white;
+}
+
+.table-grid1 > span {
+    padding: 5px;
+    border-left: 1px;
+    border-bottom: 2px;
+    
+}
+
+.table-grid2{
+    display: none;
+}
+.weather-summary{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: .5rem;
+    font-weight: bold;
+    background: radial-gradient(rgba(255, 255, 255, 0.082), rgb(194, 188, 101));
+    border: 3px solid #1f2041;
+    border-width: 2px;
+}
+
+
+.contact-info{
+    text-align: justify;
+}
+
+.img2 {
+    width: 350px;
+    height: 250px;
+}
+
+.new-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.news-text {
+    text-align: justify;
+}
+
+.no-display {
+    display: none;
+}
+
+#friday-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: bisque;
+    display: none;
+}
+
+#friday-banner p {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #1f2041;
+}
+
