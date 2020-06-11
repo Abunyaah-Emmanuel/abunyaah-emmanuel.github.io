@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Barlow|Fjalla+One|Lobster|Ubuntu|Ubuntu+Condensed&display=swap');
 
-
 header, main, footer, nav {
     width: 85%;
     margin: 0 auto;
@@ -67,11 +66,11 @@ nav ul li:hover, .active:hover {
     background-color: #1f2041;
     color: #fff;
 }
-
+/*
 .main-nav {
     display: flex;
 }
-
+*/
 .main-nav li:first-child {
     font-size: 1.6rem;
     display: block;
@@ -80,6 +79,14 @@ nav ul li:hover, .active:hover {
 .main-nav li {
     display: block;
     flex: 1 1 100%;
+}
+
+#content-container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 footer {
@@ -198,13 +205,18 @@ nav li a {
 }
 
 .img2 {
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
 }
 
 .new-img {
     float: left;
     margin-right: 10px;
+}
+
+.norm {
+    width: 100%;
+    height: auto;
 }
 
 .news-text {
@@ -248,4 +260,32 @@ img[data-src] {
 img {
     filter: blur(0em);
     transition: filter 3s;
+}
+
+.main-nav li:first-child {
+    display: block;
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.main-nav.responsive li:first-child a span.exit-button {
+    font-size : xx-large;
+}
+
+.main-nav.responsive li:first-child a span.exit-button, .main-nav li:first-child a span.hamburger {
+    display : inline;
+}
+
+.main-nav.responsive li:first-child a span.hamburger, .main-nav li:first-child a span.exit-button {
+    display : none;
+} 
+
+.main-nav li {
+    display: none;
+}
+
+
+.responsive li {
+    display: block;
 }

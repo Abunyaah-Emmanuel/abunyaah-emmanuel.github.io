@@ -2,13 +2,12 @@
 WebFont.load({
     google: {
       families: [
-         'Ubuntu',
-         'Ubuntu Condensed',
-         'Lobster',
+         'Anton',
+         'Barlow',
          'Fjalla One',
-         'Verdana',
-         'Lucida Sans Unicode',
-         'sans-serif',
+         'Lobster',
+         'Ubuntu',
+         'Ubuntu Condensed'
       ]
     }
 });

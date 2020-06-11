@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 37.5em) {
     header img {
         width: 70px;
         height: auto;
@@ -50,49 +50,21 @@
         grid-column: span 2;
     }
 
-    #content-container {
-        width: 85%;
-        margin: 0 auto;
-        background-color: bisque;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    .main-nav li:first-child {
-        display: block;
-        border: none;
-        font-size: 1.3rem;
-        padding: 10px;
-    }
-
-    .main-nav.responsive li:first-child a span.exit-button {
-        font-size : xx-large;
-    }
-
-    .main-nav.responsive li:first-child a span.exit-button, .main-nav li:first-child a span.hamburger {
-        display : inline;
-    }
-
-    .main-nav.responsive li:first-child a span.hamburger, .main-nav li:first-child a span.exit-button {
-        display : none;
-    } 
-
-    .main-nav li {
-        display: none;
-    }
+    
 
     .main-nav li:first-child a {
         border-top: none;
         color: #ffc857;
     }
 
+    .img2 {
+        width: 350px;
+        height: 250px;
+    }
+    
+
     .active {
         color: #ffa500;
-    }
-
-
-    .responsive li {
-        display: block;
     }
 
     h2{
