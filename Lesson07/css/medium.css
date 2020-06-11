@@ -138,4 +138,23 @@
     .table-grid2{
         display: block;
     }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        text-align: center;
+        align-items: center;
+        margin-top: 4px;
+        margin-bottom: 40px;
+    }
+    
+    img[data-src] {
+        filter: blur(0.5em);
+    }
+      
+    img {
+        filter: blur(0em);
+        transition: filter 3s;
+    }
 }
