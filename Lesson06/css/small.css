@@ -132,6 +132,12 @@ body {
     width: 100vw;
     box-sizing: border-box;
 }
+
+h1 { 
+    font-size: 2em;
+    font-family: 'Lobster', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h2{
     text-align: center;
 }

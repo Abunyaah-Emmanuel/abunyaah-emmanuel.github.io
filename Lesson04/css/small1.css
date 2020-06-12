@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Barlow|Fjalla+One|Lobster|Ubuntu|Ubuntu+Condensed&display=swap');
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    width: 100vw;
+}
+
+.motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+    color: bisque;
+	margin: 40px 0;
+    font-size: .7rem;
+}
+
+#content-container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content-box {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #1f2041;
+    color: #ffffff;
+    border-radius: 5px;    
+    
+}
+
+.main-nav li:first-child {
+    display: block;
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.main-nav.responsive li:first-child a span.exit-button {
+    font-size : xx-large;
+}
+
+.main-nav.responsive li:first-child a span.exit-button, .main-nav li:first-child a span.hamburger {
+    display : inline;
+}
+
+.main-nav.responsive li:first-child a span.hamburger, .main-nav li:first-child a span.exit-button {
+    display : none;
+} 
+
+.main-nav li {
+	display: none;
+}
+
+.main-nav li:first-child a {
+    border-top: none;
+    color: #ffc857;
+}
+
+.active {
+    color: #ffa500;
+}
+
+.responsive li {
+	display: block;
+}
