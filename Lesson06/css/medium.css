@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 37.5em) {
     header img {
         width: 70px;
         height: auto;
@@ -133,5 +133,9 @@
     table td:last-child, table th:last-child {
         border-right: none;
         
+    }
+
+    .table-grid2{
+        display: block;
     }
 }

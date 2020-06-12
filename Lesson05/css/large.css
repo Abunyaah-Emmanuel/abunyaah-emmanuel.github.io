@@ -33,6 +33,9 @@
         font-size: 1rem;
     }
 
+    .table-grid2{
+        display: block;
+
     footer {
         font-size: 0.9em;
         width: 90%;
