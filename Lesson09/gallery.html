@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson8 | Preston</title>
+    <title>Lesson9 | Gallery</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    
+
 </head>
 
 <body>
@@ -29,104 +29,62 @@
             <li><a href="#" onclick="toggleMenu()"><span class="exit-button">&#215;</span>
                     <span class="hamburger">&#9776; Menu</span></a></li>
             <li><a href="/index.html">Home</a></li>
-            <li><a href="preston-8.html" class="active">Preston</a></li>
+            <li><a href="preston-9.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
         </ul>
     </nav>
+
     <div id="content-container">
         <main>
-            <h2> The Town Of Preston </h2>
-            <div class="herodiv">
-                <div class="hero-ph">
-                    <picture>
-                        <source media="(min-width: 60em)" srcset="images/hero-image-1200.png">
-                        <source media="(min-width: 37.5em)" srcset="images/hero-image-800.png">
-                        <img class="hero-image" src="images/hero-image-400.png" width="100" height="300" alt="blue sky">
-                    </picture>
-                </div>
+            <h2>Gallery</h2>            
+            <section class="gallery-container">
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-avocado.jpg" alt="Avocado">
+                    <figcaption>Avocado</figcaption>
+                </picture>
 
-                <section class="weather-summary">
-                    <h3>Weather Summary</h3>
-                    <hr>
-                    <div class="table-grid1">
-                        <span class="head-content">Currently:</span>
-                        <span class="head-value">Sunny</span>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-world.jpg" alt="world">
+                    <figcaption>world</figcaption>
+                </picture>
 
-                        <span class="head-content">High:</span>
-                        <span class="head-value"><span id="temp">48</span>&#8457;</span>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-cars.jpg" alt="cars">
+                    <figcaption>Cars</figcaption>
+                </picture>
 
-                        <span class="head-content">Wind Chill:</span>
-                        <span class="head-value"><span id="wind-chill"></span></span>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-flower.jpg" alt="flower">
+                    <figcaption>Flower</figcaption>
+                </picture>
 
-                        <span class="head-content">Humidity:</span>
-                        <span class="head-value">69%</span>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-grain.jpg" alt="grain">
+                    <figcaption>Grain</figcaption>
+                </picture>
 
-                        <span class="head-content">Wind Speed:</span>
-                        <span class="head-value"><span id="wind-speed">5</span>mph</span>
-                    </div>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-groove.jpg" alt="groove">
+                    <figcaption>Serene Groove</figcaption>
+                </picture>
 
-                </section>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-highway.jpg" alt="highway">
+                    <figcaption>Highway</figcaption>
+                </picture>
 
-            </div>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-island.jpg" alt="island">
+                    <figcaption>Island</figcaption>
+                </picture>
 
-            <div class="table-grid2">
-                <h2>5 Day Forecast</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Sun</th>
-                            <th>Mon</th>
-                            <th>Tue</th>
-                            <th>Wed</th>
-                            <th>Thu</th>
-                        </tr>
-                        <tr>
-                            <td><img src="images/icons8-sun-50-2.png" alt="sunny day"></td>
-                            <td><img src="images/icons8-sun-50-2.png" alt="sunny day"></td>
-                            <td><img src="images/icons8-sun-50-2.png" alt="sunny day"></td>
-                            <td><img src="images/icons8-sun-50-2.png" alt="sunny day"></td>
-                            <td><img src="images/icons8-sun-50-2.png" alt="sunny day"></td>
-                        </tr>
-
-                        <tr>
-                            <td>76 &#8457;</td>
-                            <td>89 &#8457;</td>
-                            <td>63 &#8457;</td>
-                            <td>71 &#8457;</td>
-                            <td>93 &#8457;</td>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-
-            <section>
-                <h2 class="float">Weather Situation in Idaho</h2>
-                <div id="article-container">
-                    <div class="article panel-wrapper">
-                        <picture class="new-img">
-                            <img class="img2" src="images/weather view.jpg" alt="cloudy mountainous view">
-                        </picture>
-                        <div class="panel">
-                            <h4 class="float">By Emmanuel Abunyaah</h4>
-                            <p class="news-text">
-                                <strong>IDAHO</strong> — A few scattered rain showers will be possible Tuesday
-                                morning. By the
-                                afternoon, isolated showers will remain in the forecast specifically for the higher
-                                terrain. Expect mostly to partly cloudy skies with highs in the 60's to low 70's. Expect
-                                breezy winds to develop across Boise and Pocatello Tuesday afternoon and
-                                evening with gusts around 25-30 mph possible. <br></br> Temperatures will be on the rise
-                                this week as a strong area of high pressure builds across the west. High temperatures
-                                will be in the low to middle 70's Wednesday. Idaho Falls and Preston will
-                                reach the 80's for the first time this year Thursday. Middleton will reach the
-                                80 degree mark for the first time Friday while Burley and Jerome
-                                approach 90!
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <picture class="content-box">
+                    <img class="norm" src="images/img-holder.png" data-src="images/img-plant.jpg" alt="plant">
+                    <figcaption>Plant</figcaption>
+                </picture>
             </section>
 
 
@@ -187,16 +145,19 @@
     </div>
 
 
+
     <footer>
         <p>&copy; <span id="currentYear"></span> | Emmanuel Abunyaah | Accra, Ghana | <a
                 href="https://www.byui.edu/online" target="_blank" rel="noopener">BYUI Online Learning</a> </p>
         <p>LastUpdated: <span id="lastUpdate"></span></p>
     </footer>
-    
+
+    <script src="js/lazyloading.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfont.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/script.js"></script>
-    
+
 </body>
+
 </html>
