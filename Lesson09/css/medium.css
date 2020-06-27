@@ -130,6 +130,7 @@
         transition: filter 3s;
     }
 
+
     .towns {
         grid-template-columns : 1fr; 
     }
