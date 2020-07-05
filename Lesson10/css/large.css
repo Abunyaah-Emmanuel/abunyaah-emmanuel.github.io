@@ -46,8 +46,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .no-display {
+    .content-box {
         display: block;
+        margin-top: 1.5em;
     }
 
     .gallery-container {
