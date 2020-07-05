@@ -1,0 +1,91 @@
+@media only screen and (min-width: 60em) {
+	.sec-company-info h1 {
+		font-size: 2.5rem;
+	}
+
+	.motto {
+		letter-spacing: 2.5pt;
+		font-size: 1.2rem;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-style: italic;
+    }
+
+    h3 {
+      font-size: 1.2em;
+  }
+
+    .main-nav {
+		display: flex;
+    }
+    
+	.main-nav li:first-child {
+        font-size: 1.6rem;
+        display: none;
+    }
+    
+	.main-nav li {
+		display: block;
+		flex: 1 1 100%;
+    }
+
+    .table-grid2{
+        display: block;
+    }
+
+    footer {
+        font-size: 0.9em;
+        width: 90%;
+        margin: 0 auto;
+    }    
+    .active {
+        color: #ffa500;
+    }
+
+    #contact {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .no-display {
+        display: block;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        text-align: center;
+        align-items: center;
+        margin-top: 4px;
+        margin-bottom: 40px;
+    }
+    
+    img[data-src] {
+        filter: blur(0.5em);
+    }
+      
+    img {
+        filter: blur(0em);
+        transition: filter 3s;
+    }
+    .norm:hover {
+        box-shadow: 0 0 50px blue;
+    }
+   
+   
+    .towns {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .town-card {
+      display : block;
+    }
+
+    .town-card img {
+      max-width: 100%;
+    }
+
+    .text-container p {
+      font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson10 | Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <section id="main-header">
+            <div id="friday-banner">
+                <p>
+                    Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion
+                </p>
+            </div>
+        </section>
+        <img src="images/cloud.jpeg" alt="logo">
+        <h1>Meteorology Research Institute of Ghana</h1>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li><a href="#" onclick="toggleMenu()"><span class="exit-button">&#215;</span>
+                    <span class="hamburger">&#9776; Menu</span></a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <div id="content-container">
+        <main>
+            <section class="content-box">
+                <h2> WELCOME ! </h2>
+                <div class="herodiv">
+                    <div class="hero-ph">
+                        <picture>
+                            <source media="(min-width: 60em)" srcset="images/hero-1200.jpg">
+                            <source media="(min-width: 37.5em)" srcset="images/hero-800.jpg">
+                            <img class="hero-image" src="images/hero-400.jpg" width="100" height="300" alt="blue sky">
+                        </picture>
+                    </div>
+                </div>
+                <div>
+                    <h3>Idaho weather News</h3>
+                   <p class="general-info">
+                    <strong>By: Sarah Jacobsen - Weather Anchor</strong>
+                    <br>
+
+                    Updated: Saturday, June 27, 2020, at 1:54 p.m.
+                    <br></br>
+                    <strong>Happy Saturday!</strong> — Increasing cloud cover today ahead of a cold front tracking in from the northwest that will bring breezy conditions Sunday, ushering in our next weathermaker. Today daytime highs will peak in the upper 80s with partly cloudy skies and a light breeze. Isolated showers are in store this afternoon for the Central Idaho Mountains and south of Twin Falls.
+                    <br></br>
+                    
+                    More significant changes in the forecast arrive Sunday night as the forecast focus shifts to cooler and wetter weather. This cold front will move in late Saturday through early Sunday dropping temperatures into the 60's across the Treasure Valley, mid 50's in the mountain valleys. Showers and storms are expected Sunday afternoon for the mountains and late Sunday for the valley. <a href="https://idahonews.com/weather" target="_blank">read more...</a>
+                    </p> 
+                </div>
+
+            </section>
+
+
+
+            <section class="town-container">
+                <h3>Towns Covered By Meteorology Research Institute Of Ghana</h3>
+
+                <div class="towns"></div>
+            </section>
+
+
+
+        </main>
+
+    </div>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Emmanuel Abunyaah | Accra, Ghana | <a
+                href="https://www.byui.edu/online" target="_blank" rel="noopener">BYUI Online Learning</a> </p>
+        <p>LastUpdated: <span id="lastUpdate"></span></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
