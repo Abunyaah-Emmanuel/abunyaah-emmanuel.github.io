@@ -50,7 +50,7 @@ fetch(apiForecastURL)
             document.querySelector('thead.table-header').appendChild(weekDaysHeader);
 
             // Generate weather icons
-            const imagesrc = 'https://openweathermap.org/img/w/' + jsonObject[i].weather[0].icon + '.png'; 
+            const imagesrc = 'https://openweathermap.org/img/wn/' + jsonObject[i].weather[0].icon + '.png'; 
             const desc = jsonObject[i].weather[0].description;
             const imageTableData = document.createElement("td");  
             const weatherImage = document.createElement("img");
@@ -68,6 +68,7 @@ fetch(apiForecastURL)
         }
     }
 });
+
 
 //WindChill calculator
 var WindChill = document.getElementById("wind-chill");

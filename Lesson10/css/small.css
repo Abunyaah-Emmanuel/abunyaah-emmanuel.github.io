@@ -462,3 +462,26 @@ form label.top input:required:valid {
     order: 2;
     -webkit-order: 2;
 }
+
+/* Upcoming events */
+.town-align, .para-event {
+    text-align: center;
+}
+
+.panel p.para-event {
+    margin: 15px;
+}
+
+hr.town-line{
+    border: 2px solid #a50404;
+  
+}
+
+.content-box1{
+    width:500px;
+	margin: auto;
+    max-width: 100%;
+    background-color:rgb(151, 161, 132);
+    box-shadow: 0 5px 10px 0 black;
+}
+

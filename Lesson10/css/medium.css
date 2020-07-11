@@ -90,8 +90,8 @@
     }
 
     td {
-        background-color: #eee;
-        color: darkolivegreen; 
+        background-color: rgb(160, 160, 160);
+        color: rgb(5, 22, 100); 
         border-left: 2px solid #ffffff;
         border-right: 2px solid #ffffff;
         padding: 15px;
@@ -151,4 +151,7 @@
       font-size: 1.05rem;      
       box-sizing: border-box;
   }
+  .no-display {
+    display: block;
+}
 }

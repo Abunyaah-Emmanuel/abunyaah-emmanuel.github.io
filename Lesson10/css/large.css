@@ -48,7 +48,7 @@
 
     .content-box {
         display: block;
-        margin-top: 1.5em;
+        
     }
 
     .gallery-container {
@@ -88,5 +88,9 @@
 
     .text-container p {
       font-size: 1.1rem;
+    }
+
+    .no-display {
+        display: block;
     }
 }
