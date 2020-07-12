@@ -1,10 +1,33 @@
 
-//Preston Weather information
-const cityID = "5604473";
-const unitCode = "imperial";
-const appID = "3b3c6af3eae1a15d36b9910176efff5f";
-const apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&units=" + unitCode + "&APPID=" + appID;
-const apiWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=" + unitCode + "&APPID=" + appID;
+// Get information.
+var pagePath=window.location.pathname;
+var pageName = pagePath.substring(pagePath.lastIndexOf('/') + 1);
+var cityID, apiForecastURL, apiWeatherURL, lat, lon;
+var unitCode = "imperial";
+var appID = "3b3c6af3eae1a15d36b9910176efff5f";
+
+//Preston Weather information.
+
+if (pageName == "preston.html") {
+    cityID = "5604473";
+    apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&units=" + unitCode + "&APPID=" + appID;
+    apiWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=" + unitCode + "&APPID=" + appID;
+
+//Soda Springs Weather information.
+
+} else if (pageName == "sodasprings.html"){
+    cityID = "5607916";
+    apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&units=" + unitCode + "&APPID=" + appID;
+    apiWeatherURL = "https://api.openweathermap.org/data/2.5/weather?id=" + cityID + "&units=" + unitCode + "&APPID=" + appID;
+
+    //Fish Haven Weather information.
+
+} else {
+    lat = "42.037147";
+    lon = "-111.395942";
+    apiForecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=" + lat + "&lon=" + lon + "&units=" + unitCode + "&APPID=" + appID;
+    apiWeatherURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=" + unitCode + "&APPID=" + appID;
+}
 
 fetch(apiWeatherURL)
     .then((responseURL) => responseURL.json())
