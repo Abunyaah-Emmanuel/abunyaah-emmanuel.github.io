@@ -73,7 +73,7 @@ fetch(apiForecastURL)
             document.querySelector('thead.table-header').appendChild(weekDaysHeader);
 
             // Generate weather icons, two options between [img/w and img/wn] 
-            const imagesrc = 'https://openweathermap.org/img/w/' + jsonObject[i].weather[0].icon + '.png'; 
+            const imagesrc = 'https://openweathermap.org/img/wn/' + jsonObject[i].weather[0].icon + '.png'; 
             const desc = jsonObject[i].weather[0].description;
             const imageTableData = document.createElement("td");  
             const weatherImage = document.createElement("img");
