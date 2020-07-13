@@ -13,6 +13,14 @@ header, main, footer, nav {
     padding: 0.75em;
 }
 
+.motto {
+	font-style: italic;
+	letter-spacing: 1pt;
+	color: #ffffff;
+	margin: 8px 0;
+	font-size: 1rem;
+}
+
 header, footer {
     display: flex;
     flex-flow: column;
