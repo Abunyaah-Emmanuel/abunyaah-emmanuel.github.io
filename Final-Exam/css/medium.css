@@ -1,4 +1,4 @@
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 37.5em) {
 
     .main-nav li:first-child {
         font-size: 1.4rem;
@@ -138,14 +138,10 @@
             box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 1);
           }
 
-          .border {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            
-          }
+        
           .map{
             display: flex;
-            justify-content: space-around;
+            justify-content:space-evenly;
           }
           
 
