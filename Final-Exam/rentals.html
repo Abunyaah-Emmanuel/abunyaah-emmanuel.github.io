@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Final Assignment Project for Emmanuel Abunyaah, Brigham Young University, Idaho">
+
+    <title>Scoots!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+
+    <!-- STYLE SHEETS -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<!-- BODY -->
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img class="header-img" src="images/Scootsicon.png" alt="logo">
+        <div class="header-text">
+            <h1>Romero's Scoots Rentals!</h1>
+            <h2>Your ride of an adventure!</h2>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <ul class="main-nav">
+            <li><a href="#" onclick="toggleMenu()"><span class="exit-button">&#215;</span>
+                    <span class="hamburger">&#9776; Menu</span></a></li>
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="rentals.html" class="active">Rentals</a></li>
+            <li><a href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- MAIN -->
+    <div class="content-container">
+
+        <main>
+            <section class="rental-data">
+                <h2 class="float">Rentals</h2>
+                <h3>Hover Item Image</h3>
+                <div id="rentalTable"></div>
+            </section>
+        </main>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Emmanuel Abunyaah | Accra, Ghana | <a
+                href="https://www.byui.edu/online" target="_blank" rel="noopener">BYUI Online Final Exam</a> </p>
+        <p>LastUpdated: <span id="lastUpdate"></span></p>
+    </footer>
+
+    <script src="js/rental.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
