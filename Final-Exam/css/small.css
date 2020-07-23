@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Galada&family=Merienda+One&family=Quicksand&family=Ubuntu:wght@300&display=swap');
-
 body {
   font-family: 'Quicksand','Lucida Sans';
   font-size: 16px;
@@ -17,8 +16,9 @@ body {
     display: flex;
     color: white;
     text-align: center;
-    
-  }
+     }
+
+   
   .header-text{
     width: 70%;
     display: inline;
@@ -447,14 +447,6 @@ form label.top input:required:valid {
 .norm {
   width: 100%;
   height: auto;
-}
-img[data-src] {
-  filter: blur(0.5em);
-}
-
-img {
-  filter: blur(0em);
-  transition: filter 3s;
 }
 
 .border {

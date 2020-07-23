@@ -75,31 +75,14 @@
         margin-top: 4px;
         margin-bottom: 40px;
     }
-    img[data-src] {
-        filter: blur(0.5em);
-    }
+    
       
     img {
-        filter: blur(0em);
+        
         transition: filter 3s;
     }
 
-    .map{
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .border {
-        display: inline;
-        width: 400px;
-        align: left;
-      }
-      .border1 {
-        display: inline;
-        width: 400px;
-       align: right;
-      }
-
-      .map{
+     .map{
         display: flex;
         justify-content: space-around;
       }

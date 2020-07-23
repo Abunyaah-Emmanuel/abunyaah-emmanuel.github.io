@@ -123,12 +123,10 @@
             margin-top: 4px;
             margin-bottom: 4px;
         }
-        img[data-src] {
-            filter: blur(0.5em);
-        }
+        
           
         img {
-            filter: blur(0em);
+            
             transition: filter 3s;
         }
 
