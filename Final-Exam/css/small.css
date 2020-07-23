@@ -448,14 +448,25 @@ form label.top input:required:valid {
   height: auto;
 }
 
-.border {
+/*.border {
   display: inline;
   width: 400px;
+  border-radius: 1em;
+  border: 5px solid red;
 
 }
 .border1 {
   display: inline;
   width: 400px;
+  border-radius: 1em;
+  border: 5px solid red;
 
+}
+*/
+iframe{
+  border-radius: 1em;
+  border: 5px solid #376AB7;
+  box-shadow: 0 0 10px #1f2041;
+  
 }
 
