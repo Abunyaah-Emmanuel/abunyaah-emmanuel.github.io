@@ -60,7 +60,7 @@ body {
     flex-flow: column;
     color: white;
     text-align: center;
-    align-items: left;
+    
     justify-content: center;
   }
 
@@ -452,11 +452,11 @@ form label.top input:required:valid {
 .border {
   display: inline;
   width: 400px;
- align: left;
+
 }
 .border1 {
   display: inline;
   width: 400px;
- align: right;
+
 }
 
