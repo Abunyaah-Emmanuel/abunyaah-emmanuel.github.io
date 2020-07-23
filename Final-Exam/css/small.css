@@ -10,6 +10,7 @@ body {
 /* Header */
 
   header {
+    font-family: 'Merienda One','Lucida Sans';
     background-color: #376AB7 ;
     padding: 1rem 10%;
     height: auto;
@@ -31,21 +32,19 @@ body {
   header > h1 {
     margin-top: 0;
     text-align: center;
-    font-size: 2em;
-    font-weight: 700;
-    line-height: 0.3rem;
+    font-size: 1.5em;
   }
   header h2 {
     margin: 0;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 300;
   }
   header img{
   box-shadow: 0 0 10px #1f2041;
-    border-radius: 10px;
-    width: 100px;
-    height: auto;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
     position: relative;
     background-color: white;
     /* margin-top: 4em; */
@@ -386,9 +385,9 @@ form label.top input:required:valid {
 }
 
 .rental-image {
-  widows: 70px;
-  height: 70px;
-  border-radius: 7px;
+  widows: 50px;
+  height: 50px;
+  border-radius: 2px;
 }
 
 
